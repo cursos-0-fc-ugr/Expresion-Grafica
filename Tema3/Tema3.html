@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Expresión Gráfica</title>
+	<link rel="stylesheet" type="text/css" href="otro.css">
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="fancybox/dist/jquery.fancybox.min.js"></script>
+	<link href="fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div id="header">
+  <h1 class="title">Expresión Gráfica</h1>
+</div>
+
+
+<header>
+  <h1 id="indice">Índice de contenidos</h1>
+</header>
+
+<ul>
+	<li><a href="#introduccion-a-los-sistemas-de-representacion">3. Introducción a los sistemas de representación</a></li>
+	<ul>
+		<li><a href="#representacion-plana-de-un-cuerpo">3.1. Representación plana de un cuerpo</a></li>
+		<li><a href="#perspectivas-axonometricas">3.2. Perspectivas axonométricas</a></li>
+		<li><a href="#sistema-diedrico">3.3. Sistema diédrico</a></li>
+	</ul>
+</ul>
+
+<header>
+		<a href="#indice">[Volver al indice]</a>
+		<h1 id="introduccion-a-los-sistemas-de-representacion">3. Introducción a los sistemas de representación</h1>
+</header>
+
+<section>
+
+		<header>
+	    	<a href="#indice">[Volver al indice]</a>
+	    	<h1 id="representacion-plana-de-un-cuerpo">Representación plana de un cuerpo</h1>
+		</header>
+
+		<p>La Expresión Gráfica tiene como fin último permitir que una visión en la mente de un ingeniero o arquitecto pueda ser transmitida por medios materiales (dibujos), a través del tiempo y del espacio, a la mente de otras personas. El proceso de diseño y fabricación o construcción de un determinado producto o infraestructura se fundamenta en la correcta transmisión de las ideas y los diseños entre las distintas personas que intervienen en el mismo.</p>
+
+
+		<p>Por tanto es necesario dominar las técnicas que permiten representar sobre el plano figuras y cuerpos tridimensionales, tanto para expresar las propias ideas como para interpretar las de otras personas. </p>
+
+		<p>Los <strong>Sistemas de Representación</strong> se basan en la <strong>proyección</strong> de los cuerpos y de los elementos geométricos que los constituyen (rectas, caras, etc.) sobre un plano, denominado <strong>plano de proyección</strong> o <strong>plano del cuadro</strong>, desde un <strong>punto de vista</strong>.</p>
+
+		<p>Existen varios Sistemas de Representación, dependiendo de si el punto de vista está en el infinito o no, y, si lo está, el ángulo que forman los rayos proyectantes con el plano del cuadro:</p>
+
+		<ul>
+			<li>Si el punto de vista está en el infinito, la proyección es <strong>cilíndrica</strong>. En este caso todos los rayos proyectantes son paralelos entre sí. Si éstos son perpendiculares al plano del cuadro la proyección es <strong>ortogonal</strong> (figura de la izquierda), y si no lo son la proyección es <strong>oblicua</strong> (figura del centro).</li>
+			<li>Si el punto de vista no está en el infinito, la proyección es <strong>cónica</strong> (figura de la derecha).</li>
+		</ul>
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img1.jpg">
+					<img alt="" src="imagenes/img1.jpg" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.1. </strong>Tipos de Sistemas de Representación</div>
+		    </div>
+		</div>
+
+		<p>Todos los tipos de proyección cilíndrica tienen dos propiedades importantes:</p>
+
+		<ul>
+			<li>Rectas paralelas se proyectan como rectas paralelas, y por tanto dos segmentos proporcionales se proyectan como dos segmentos proporcionales.</li>
+			<li>La proyección de una figura plana situada en un plano paralelo al del cuadro mantiene su forma y magnitudes reales.</li>
+		</ul>
+
+	</section>
+
+	<section>
+
+		<header>
+	    	<a href="#indice">[Volver al indice]</a>
+	    	<h1 id="perspectivas-axonometricas">Perspectivas axonométricas</h1>
+		</header>
+
+
+		<p>Todos los cuerpos se definen en relación a un sistema de referencia formado por tres ejes, OX, OY y OZ, perpendiculares entre sí, dispuestos de la forma en que mejor se adaptan a la geometría del cuerpo:</p>
+
+
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img2.jpg">
+					<img alt="" src="imagenes/img2.jpg" width="30%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.2. </strong>Sistema de ejes de referencia</div>
+		    </div>
+		</div>
+
+
+		<p>Se denomina <strong>perspectiva axonométrica</strong> de un cuerpo a su proyección cilíndrica sobre el plano del cuadro en relación a su sistema de referencia. En general el plano del cuadro corta a los ejes coordenados OX, OY y OZ en tres puntos A, B y C, con lo que la longitud de la proyección de cada eje es inferior a la real. El cociente entre la longitud de la proyección de un segmento situado sobre un eje coordenado y la longitud real de dicho segmento se denomina <strong>coeficiente de reducción</strong> de dicho eje, cuyo valor no puede superar la unidad.</p>
+
+		<p>En función de la posición relativa entre el plano del cuadro y el sistema de referencia se distinguen los distintos tipos de perspectivas axonométricas:</p>
+
+		<p>a)<strong>Perspectivas axonométricas ortogonales:</strong></p>
+
+		<ul>
+			<li><strong>Perspectiva isométrica</strong>: los puntos A, B y C en que el plano del cuadro corta a los ejes coordenados equidistan del origen de coordenadas. Por tanto, los coeficientes de reducción en los tres ejes coinciden, y su valor es aproximadamente 0,8. Los ángulos que forman las proyecciones sobre el plano del cuadro de los ejes coordenados son iguales, de valor 120º.</li>
+			<li><strong>Perspectiva dimétrica</strong>: sólo dos de los puntos A, B y C equidistan del origen de coordenadas. El coeficiente de reducción coincide en los dos ejes correspondientes, siendo distinto en el tercero. Los ángulos que forman las proyecciones de los ejes de igual coeficiente de reducción con la del tercero son iguales.</li>
+			<li><strong>Perspectiva trimétrica</strong>: las distancias entre los puntos A, B y C y el origen de coordenadas son diferentes en todos los casos. No coincide ningún coeficiente de reducción ni ningún ángulo entre las proyecciones de los ejes.</li>
+		</ul>
+
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img3.jpg">
+					<img alt="" src="imagenes/img3.jpg" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.3. </strong>Ejes de referencia en las perspectivas axonométricas ortogonales</div>
+		    </div>
+		</div>
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img4.jpg">
+					<img alt="" src="imagenes/img4.jpg" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.4. </strong>Representación del cubo en las perspectivas axonométricas ortogonales</div>
+		    </div>
+		</div>
+
+		<p>En perspectiva axonométrica ortogonal, nunca una cara paralela a ninguno de los planos definidos por los ejes coordenados se proyecta en verdadera magnitud, es decir, con la misma forma y tamaño que tiene en la realidad. Se aprecia en la figura anterior que ninguna cara de los tres cubos se proyecta como verdaderamente es, un cuadrado. Se distorsionan los ángulos rectos y se reducen las longitudes de sus lados por efecto del coeficiente de reducción.</p>
+
+		<p>b)<strong>Perspectivas axonométricas oblicuas:</strong></p>
+
+
+		<ul>
+			<li><strong>Perspectiva caballera</strong>: el plano del cuadro es paralelo al plano XOZ, con lo que los puntos A y C quedan en el infinito. El coeficiente de reducción en los ejes OX y OZ es igual a la unidad, con lo que las caras paralelas al plano XOZ se proyectan en verdadera magnitud, es decir, con la misma forma y tamaño que tienen en la realidad. El coeficiente de reducción en el eje OY y el ángulo que forma su proyección respecto del eje OX dependen de la dirección de proyección.</li>
+			<li><strong>Perspectiva militar</strong>: el plano del cuadro es paralelo al plano XOY. Este plano y todos los paralelos a él están en verdadera magnitud. El coeficiente de reducción en el eje OZ y el ángulo que forma su proyección respecto del eje OX dependen de la dirección de proyección.</li>
+		</ul>
+
+
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img5.jpg">
+					<img alt="" src="imagenes/img5.jpg" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.5. </strong>Ejes de referencia en las perspectivas axonométricas oblicuas</div>
+		    </div>
+		</div>
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img6.jpg">
+					<img alt="" src="imagenes/img6.jpg" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.6. </strong>Representación del cubo en las perspectivas axonométricas oblicuas</div>
+		    </div>
+		</div>
+
+	</section>
+
+	<section>
+
+		<header>
+	    	<a href="#indice">[Volver al indice]</a>
+	    	<h1 id="sistema-diedrico">Sistema diédrico</h1>
+		</header>
+
+
+		<p>El <strong>sistema diédrico</strong> es un sistema de representación <strong>constructivo</strong>, frente a los otros sistemas, como el cónico o el axonométrico, que son de tipo fundamentalmente descriptivo. Por este motivo el sistema diédrico es sin duda el más importante en la Expresión Gráfica en la Ingeniería.</p>
+
+		<p>En este sistema, cualquier figura se proyecta <strong>ortogonalmente</strong> sobre dos planos perpendiculares entre sí denominados <strong>Plano Horizontal de Proyección (PHP)</strong> y <strong>Plano Vertical de Proyección (PVP)</strong> respectivamente. En principio esas dos proyecciones son suficientes para determinar de forma biunívoca la figura; excepcionalmente, si no lo fueran puede obtenerse su <strong>tercera proyección</strong>, sobre un plano de perfil perpendicular a los PHP y PVP. </p>
+
+		<div class="sbsimage">
+				<div class="imgContainerEnd">
+					<a data-fancybox="" href="imagenes/img7.jpg">
+					<img alt="" src="imagenes/img7.jpg" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 3.7. </strong>Sistema diédrico</div>
+				</div>
+		</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

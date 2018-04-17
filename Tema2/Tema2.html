@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Expresión Gráfica</title>
+	<link rel="stylesheet" type="text/css" href="otro.css">
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="fancybox/dist/jquery.fancybox.min.js"></script>
+	<link href="fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+</head>
+
+<div id="header">
+  <h1 class="title">Geometría Métrica</h1>
+</div>
+
+
+<header>
+  <h1 id="indice">Índice de contenidos</h1>
+</header>
+
+<ul>
+		<li><a href="#Ap1">2.1.Fundamentos de la Geometría Métrica</a></li>
+    <li><a href="#Ap2">2.2.Postulado, axioma, teorema, definición y propiedad</a></li>
+    <li><a href="#Ap3">2.3.La Recta</a></li>
+    <li><a href="#Ap4">2.4.La circunferencia</a></li>
+    <li><a href="#Ap5">2.5.El plano</a></li>
+    <li><a href="#Ap6">2.6.Ángulos</a></li>
+    <li><a href="#Ap7">2.7.Perpendicularidad y paralelismo</a></li>
+    <li><a href="#Ap8">2.8.Polígonos</a></li>
+    <li><a href="#Ap9">2.9.Triángulos</a></li>
+    <li><a href="#Ap10">2.10.Cuadriláteros</a></li>
+    <li><a href="#Ap11">2.11.Paralelas y perpendiculares con escuadra y cartabón</a></li>
+    <li><a href="#Ap12">2.12.Ángulos a 30º, 45º, 60º y 90º</a></li>
+    <li><a href="#Ap12">2.13.Manejo del transportador de ángulos</a></li>
+</ul>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap1">Fundamentos de la Geometría Métrica</h1>
+	</header>
+
+<p>La <strong>Geometría Métrica</strong> es la <strong>ciencia</strong> que estudia la forma, extensión y propiedades de las figuras y cuerpos geométricos en el plano o en el espacio. </p>
+
+<p>Los <strong>elementos geométricos fundamentales</strong> son los siguientes:</p>
+</section>
+
+<ul>
+  <li><strong>Punto:</strong>  la entidad geométrica más básica, que no tiene longitud, anchura ni altura.</li>
+  <li><strong>Recta:</strong>  conjunto de puntos alineados según la trayectoria más corta que puede trazarse entre cualquier pareja de ellos.</li>
+  <li><strong>Plano:</strong>  superficie sin aristas ni ondulaciones.</li>
+</ul>
+
+<p>Estos conceptos son fácilmente comprensibles, si bien no es posible definirlos con precisión sin referirse a ellos mismos. </p>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap2">Conceptos de postulado, axioma, teorema, definicion y propiedad</h1>
+	</header>
+
+<ul>
+  <li><strong>Postulado: </strong>proposición tan clara y evidente que se admite sin necesidad de demostración. Por ejemplo: la línea recta es la mínima distancia entre dos puntos.</li>
+  <br><li><strong>Axioma: </strong>proposición tan clara y evidente que se admite sin necesidad de demostración. Por ejemplo: la línea recta es la mínima distancia entre dos puntos.</li>
+  <br><li><strong>Teorema: </strong>proposición demostrable lógicamente partiendo de axiomas o de otros teoremas ya demostrados, mediante reglas de inferencia aceptadas. Por ejemplo, el Teorema de Pitágoras: "en un triángulo rectángulo, el cuadrado de la hipotenusa es la suma de los cuadrados de los catetos".</li>
+  <br><li><strong>Definición: </strong>proposición que expone con claridad y exactitud los caracteres genéricos y diferenciales de algo material o inmaterial. Por ejemplo: un cuadrado es un cuadrilátero que tiene cuatro lados iguales y cuatro ángulos rectos.</li>
+  <br><li><strong>Propiedad: </strong>atributo o cualidad esencial de alguien o algo. Por ejemplo: una propiedad de un cuadrado es que tiene cuatro lados iguales. Pero existen otros cuadriláteros que también tienen esta propiedad, los rombos.</li>
+</ul>
+
+<p>(Estas definiciones proceden del diccionario de la Real Academia Española).</p>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap3">La recta</h1>
+	</header>
+
+<h2> Conceptos fundamentales</h2>
+
+<ul>
+  <li>Toda recta es ilimitada. El (único) punto de la misma situado en el infinito se llama<strong>punto impropio.</strong></li>
+  <br><li>Un punto de una recta la divide en dos<strong> semirectas.</strong></li>
+  <br><li>Dos puntos de una recta determinan un <strong>segmento. </strong>Dichos puntos son sus <strong>extremos</strong>.</li>
+  <br><li>La distancia entre los extremos de un segmento se denomina <strong>valor absoluto</strong> del mismo.</li>
+  <br><li>El punto perteneciente a un segmento que equidista de sus extremos es su <strong>punto medio.</strong></li>
+  <br><li><strong>Segmento orientado </strong>es un segmento en el que se ha definido un sentido de recorrido.</li>
+  <br><li>El <strong>valor algebraico </strong>de un segmento es su valor absoluto acompañado de un signo, positivo o negativo, en función de si se recorre en el mismo o distinto sentido definido como positivo.</li>
+  <br><li>La <strong>mediatriz</strong> de un segmento es el lugar geométrico de los puntos que equidistan de sus extremos
+
+		<div class="sbsimage">
+		    <div class="imgContainerEnd">
+		    	<a data-fancybox="" href="imagenes/img1.png">
+					<img alt="" src="imagenes/img1.png" width="50%"/>
+				</a>
+				<div class="sbsCaption"><strong>Figura 2.1. </strong>Recta, semirrecta y segmento</div>
+		    </div>
+		</div>
+
+	</li>
+</ul>
+
+<blockquote>
+<p><strong>Primer postulado de Euclides: </strong>"Dos puntos cualesquiera determinan un segmento de recta".</p>
+<p><strong>Segundo postulado de Euclides: </strong>"Un segmento de recta se puede extender indefinidamente en una línea recta".</p>
+</blockquote>
+
+<article>
+
+  <p>Considerando los postulados anteriores contesta a las siguientes preguntas: </p>
+
+  <ol>
+    <li>
+      ¿Cuántas rectas pasan por un punto cualquiera?
+      <button id="e1-1" class="button"  onclick="show2('e1-1');">Solución</button>
+      <div id="sol-e1-1" style="display:none;"><strong>Infinitas</strong></div>
+    </li>
+    <li>
+      ¿Cuántas rectas (no coincidentes) pasan por dos puntos no coincidentes?
+      <button id="e1-2" class="button"  onclick="show2('e1-2');">Solución</button>
+      <div id="sol-e1-2" style="display:none;"><strong>Una</strong></div>
+    </li>
+    <li>
+      ¿Cuántos puntos (no coincidentes) son necesarios para definir una y solo una recta?
+      <button id="e1-3" class="button"  onclick="show2('e1-3');">Solución</button>
+      <div id="sol-e1-3" style="display:none;"><strong>Dos</strong></div>
+    </li>
+    <li>
+      ¿Cuántos puntos pueden tener en común como máximo dos rectas no coincidentes?
+      <button id="e1-4" class="button"  onclick="show2('e1-4');">Solución</button>
+      <div id="sol-e1-4" style="display:none;"><strong>Uno</strong></div>
+    </li>
+  </ol>
+
+</article>
+
+<h2>Posiciones relativas de punto y recta:</h2>
+
+<ul>
+  <li>Un punto es <strong>exterior </strong>a una recta si no está situado sobre ella.</li>
+  <li>Un punto <strong>pertenece </strong>a una recta, o bien la recta <strong>pasa</strong> por el punto, si éste está situado sobre aquélla.</li>
+
+</ul>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img2.png">
+			<img alt="" src="imagenes/img2.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.2. </strong>Posiciones relativas de punto y recta</div>
+		</div>
+</div>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap4">La circunferencia</h1>
+	</header>
+
+<h2> Definiciones</h2>
+
+<ul>
+  <li>Una <strong>Circunferencia </strong>está definida por los infinitos puntos de un plano que distan de un punto fijo (<strong>centro</strong>) una magnitud constante (<strong>radio</strong>).</li>
+  <li><strong>Círculo</strong> es el área del plano en que se sitúan los puntos que distan del centro de la circunferencia una magnitud igual o inferior a su radio.</li>
+  <li><strong>Cuerda</strong> es el segmento determinado por cualquier pareja de puntos de una circunferencia.</li>
+  <li><strong>Diámetro</strong> es toda cuerda de una circunferencia que pasa por su centro.</li>
+  <li><strong>Arco</strong> es la parte de la circunferencia delimitada por cualquier pareja de puntos de ésta.</li>
+</ul>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img3.png">
+			<img alt="" src="imagenes/img3.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.3. </strong>La circunferencia</div>
+		</div>
+</div>
+
+<blockquote>
+<p><strong>Tercer postulado de Euclides: </strong> “Se puede trazar una circunferencia dados un centro y un radio cualesquiera”.</p>
+</blockquote>
+
+<p>La <strong>mediatriz</strong> de un segmento se obtiene dibujando con centro en sus extremos sendas circunferencias del mismo radio (que debe ser mayor que la mitad de la longitud del segmento). Los puntos donde se cortan estas dos circunferencias equidistan de los extremos, y determinan la mediatriz del segmento, al que es perpendicular y lo corta en su punto medio.</p>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img4.png">
+			<img alt="" src="imagenes/img4.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.4. </strong>Mediatriz de un segmento</div>
+		</div>
+</div>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap5">El plano</h1>
+	</header>
+
+<h2> Definiciones</h2>
+
+<ul>
+  <li>Una recta contenida en un plano lo divide en dos <strong>semiplanos</strong>. Esta recta se denomina <strong>frontera, contorno, borde u origen</strong> del semiplano.</li>
+  <br><li>Un punto de un semiplano, no perteneciente al contorno, se llama <strong>interior</strong>. Un punto que no pertenezca al contorno ni sea interior se denomina <strong>exterior</strong>.</li>
+</ul>
+
+<hr/>
+
+<p>Coge dos lápices, uno con cada mano, orientándolos según cualquier dirección pero sin que se toquen. ¿Crees que existe un plano que pueda contener simultáneamente a los dos lápices?</p>
+
+<p>Repite la operación, poniendo ahora los lápices en contacto. ¿Existe un plano que contenga a ambos lápices en esta nueva disposición?</p>
+
+<p>Los lápices representan a rectas. En el primer caso las rectas <strong>se cruzan</strong>, no tienen ningún punto en común y no definen ningún plano. En el segundo caso las rectas <strong>se cortan</strong> en un punto y definen un único plano.</p>
+
+<br>
+
+<article>
+
+  <p>Considerando lo anterior contesta a las siguientes preguntas:</p>
+
+  <ol>
+    <li>
+      ¿Cuántos planos contienen a una recta dada?
+      <button id="e2-1" class="button"  onclick="show2('e2-1');">Solución</button>
+      <div id="sol-e2-1" style="display:none;"><strong>Infinitos</strong></div>
+    </li>
+    <li>
+      ¿Cuántos planos contienen a dos puntos dados (no coincidentes)?
+      <button id="e2-2" class="button"  onclick="show2('e2-2');">Solución</button>
+      <div id="sol-e2-2" style="display:none;"><strong>Infinitos</strong></div>
+    </li>
+    <li>
+      ¿Dos rectas que se cortan definen un plano?
+      <button id="e2-3" class="button"  onclick="show2('e2-3');">Solución</button>
+      <div id="sol-e2-3" style="display:none;"><strong>Sí</strong></div>
+    </li>
+    <li>
+      ¿Dos rectas que se cruzan definen un plano?
+      <button id="e2-4" class="button"  onclick="show2('e2-4');">Solución</button>
+      <div id="sol-e2-4" style="display:none;"><strong>No</strong></div>
+    </li>
+    <li>
+      ¿Existe algún plano que contenga a una recta y a un punto exterior a la misma? ¿Cuántos?
+      <button id="e2-5" class="button"  onclick="show2('e2-5');">Solución</button>
+      <div id="sol-e2-5" style="display:none;"><strong>Sí, uno.</strong></div>
+    </li>
+    <li>
+      ¿Existe algún plano que contenga a tres puntos no alineados? ¿Cuántos?
+      <button id="e2-6" class="button"  onclick="show2('e2-6');">Solución</button>
+      <div id="sol-e2-6" style="display:none;"><strong>Sí, uno.</strong></div>
+    </li>
+  </ol>
+
+</article>
+
+<br>
+
+<p> En base a las respuestas del ejercicio anterior deducimos que un plano queda determinado por:</p>
+
+<ul>
+  <li> Tres puntos no alineados </li>
+  <li> Dos rectas secantes </li>
+  <li> Una recta y un punto exterior a la misma </li>
+
+	<div class="sbsimage">
+			<div class="imgContainerEnd">
+				<a data-fancybox="" href="imagenes/img5.png">
+				<img alt="" src="imagenes/img5.png" width="50%"/>
+			</a>
+			<div class="sbsCaption"><strong>Figura 2.5. </strong>Denominación de un plano por puntos y/o rectas</div>
+			</div>
+	</div>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap6">Ángulos</h1>
+	</header>
+
+<h2> Definiciones</h2>
+
+<ul>
+  <li><strong>Ángulo</strong> es la región de un plano delimitada por dos semirrectas que tienen el mismo origen. A estas dos semirrectas se les llama <strong>lados</strong>, a su punto común, <strong>vértice</strong> del ángulo.</li>
+  <br><li><strong>Medir un ángulo</strong> es compararlo con otro ángulo tomado como unidad. Se utilizan los grados sexagesimales, los grados centesimales y los radianes.</li>
+  <br><li>El valor de un ángulo puede ser de <strong>signo</strong> positivo o negativo en función de si se recorre a favor o en contra de un sentido tomado como positivo.</li>
+  <br><li>Dos ángulos son <strong>iguales</strong> si se puede colocar uno sobre el otro de forma que coincidan.</li>
+</ul>
+
+<h2> Clasificación de los ángulos en función de su medida: </h2>
+
+<ul>
+  <li><strong>Ángulo recto</strong> es el que vale exactamente 90º, 100g o π/2 radianes.</li>
+  <br><li><strong>Ángulo agudo</strong> es el que mide menos que un ángulo recto.</li>
+  <br><li><strong>Ángulo obtuso</strong> es el que mide más que un ángulo recto.</li>
+  <br><li><strong>Ángulo llano</strong> es el que tiene sus lados en prolongación, y mide 180º, 200g o π radianes.</li>
+</ul>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img6.png">
+			<img alt="" src="imagenes/img6.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.6. </strong>Clasificación de los ángulos en función de su medida.</div>
+		</div>
+</div>
+
+<blockquote>
+  <p><strong>Cuarto postulado de Euclides: </strong>"Todos los ángulos rectos son iguales entre sí".</p>
+</blockquote>
+
+<p>Dos ángulos son <strong>adyacentes</strong> si comparten vértice y un lado. Dos ángulos adyacentes son <strong>complementarios</strong> si su suma vale 90º. Dos ángulos adyacentes son <strong>suplementarios</strong> si su suma vale 180º.</p>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img7.png">
+			<img alt="" src="imagenes/img7.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.7. </strong>Ángulos adyacentes, complementarios y suplementarios.</div>
+		</div>
+</div>
+
+<p>Dos ángulos son <strong>opuestos por el vértice</strong> si los lados de uno son prolongación de los del otro.</p>
+<line>
+<p><strong>La bisectriz</strong> de un ángulo es la recta que contiene a su vértice y divide al ángulo en otros dos ángulos iguales. La bisectriz de un ángulo es única, y todos sus puntos equidistan de los dos lados.</p>
+<p>Para dibujar la bisectriz de un ángulo, con centro en su vértice se traza un arco de circunferencia de un radio cualquiera. Con centro en los puntos donde el arco anterior corta a cada lado del ángulo se dibujan sendas circunferencias del mismo radio. Los puntos donde estas dos circunferencias se cortan pertenecen a la bisectriz, así como el vértice del ángulo. </p>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img8.png">
+			<img alt="" src="imagenes/img8.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.8. </strong>Bisectriz de un ángulo</div>
+		</div>
+</div>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap7">Perpendicularidad y paralelismo</h1>
+	</header>
+
+<h2> Perpendicularidad </h2>
+
+<p>Dos rectas son <strong>perpendiculares u ortogonales</strong> cuando los ángulos adyacentes que forman son iguales. En caso contrario son rectas <strong>oblicuas.</strong> </p>
+
+<p>Por un punto sólo puede trazarse una perpendicular a una recta cualquiera.</p>
+
+<h2> Paralelismo </h2>
+
+<p>Dos rectas son <strong>paralelas</strong> si desplazando una de ellas sin girarla se puede colocar sobre la otra de forma que coincidan.</p>
+
+<p>Dos rectas coplanarias cualesquiera son secantes. Por otro lado dos rectas paralelas definen un plano. En consecuencia dos rectas paralelas son secantes, luego tienen un punto en común. Se denomina <strong>punto impropio</strong> o <strong>punto del infinito</strong> el de intersección de dos rectas paralelas.</p>
+<p>Una recta tiene un solo punto impropio, al que se llega recorriendo la recta hasta el infinito en un sentido o en el otro. </p>
+<p>Todas las rectas paralelas entre sí tienen el mismo punto impropio.</p>
+<p>Dos rectas perpendiculares a una tercera son paralelas entre sí.</p>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img9.png">
+			<img alt="" src="imagenes/img9.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.9. </strong>Perpendicularidad y paralelismo.</div>
+		</div>
+</div>
+
+<blockquote>
+  <p><strong>Quinto postulado de Euclides: </strong>"Por un punto exterior a una recta, se puede trazar una única paralela a ella".</p>
+</blockquote>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap8">Polígonos</h1>
+	</header>
+
+<h2> Definiciones</h2>
+
+<ul>
+  <li><strong>Línea quebrada o poligonal abierta: </strong> dados n puntos de un plano, A1, A2 … An (n≥3), en un cierto orden, se denomina línea quebrada o poligonal abierta a la figura formada uniendo con segmentos los pares de puntos consecutivos.</li>
+  <br><li><strong>Línea quebrada o poligonal cerrada: </strong> resulta de unir el último punto An con el primero A1.</li>
+  <br><li><strong>Vértices: </strong>se llaman así a los n puntos A1, A2 … An. El primero y el último son los <strong>extremos.</strong></li>
+  <br><li><strong>Lados: </strong>segmentos que unen puntos consecutivos. Una poligonal de n vértices tiene n-1 lados si es abierta y n lados si es cerrada. Dos lados con un vértice común se llaman consecutivos. Los ángulos formados por cada par de lados <strong>consecutivos</strong> se llaman <strong>ángulos de la poligonal.</strong></li>
+	<br><li><strong>Diagonales: </strong>segmentos que unen puntos no consecutivos.</li>
+	<br><li><strong>Polígono: </strong>conjunto de una poligonal cerrada y el área que encierra. Sus <strong>ángulos internos</strong> son los que forman dos lados consecutivos, y sus <strong>ángulos externos</strong>, los que forma cada lado con la prolongación del anterior, por fuera del polígono.</li>
+</ul>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img10.png">
+			<img alt="" src="imagenes/img10.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.10. </strong>Líneas poligonales y polígonos.</div>
+		</div>
+</div>
+
+<h2>Clasificación de polinómios:</h2>
+
+<ul>
+	<li><strong>En función del número de lados:</strong> triángulo, cuadrilátero, pentágono, hexágono, heptágono, octógono, eneágono, decágono, undecágono, dodecágono, pentadecágono. Los no incluidos en esta clasificación se denominan por su número de lados.</li>
+	<br><li><strong>En función de la medida de sus ángulos y de sus lados:</strong>
+		<ul>
+			<li><strong>Polígono equiángulo </strong>es el que tiene todos sus ángulos iguales.</li>
+			<br><li><strong>Polígono equilátero </strong>es el que tiene todos sus lados iguales.</li>
+			<br><li><strong>Polígono regular </strong>es todo polígono equiángulo equilátero.</li>
+			<br><li><strong>Polígono semirregular </strong>es todo polígono equiángulo son sus lados alternativamente iguales, y todo polígono equilátero con sus ángulos alternativamente iguales.</li>
+			<br><li><strong>Polígono irregular </strong>es cualquier polígono no incluido en las categorías anteriores.</li>
+		</ul>
+</ul>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img11.png">
+			<img alt="" src="imagenes/img11.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.11. </strong>Clasificación de los polígonos en función de sus lados y ángulos</div>
+		</div>
+</div>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap9">Triángulos</h1>
+	</header>
+
+<h2> Definiciones</h2>
+
+<ul>
+  <li>Se llama <strong>triangulo </strong>al polígono de tres lados</li>
+  <br><li>La suma de los ángulos interiores de un triángulo es siempre 180º.</li>
+</ul>
+
+<h2>Clasificación</h2>
+
+<ul>
+	<li>Según sus ángulos:
+		<ul>
+			<li><strong>Obtusángulo</strong> si tiene un ángulo obtuso.</li>
+			<li><strong>Acutángulo</strong> si todos sus ángulos son agudos.</li>
+			<li><strong>Rectángulo</strong> si tiene un ángulo recto. En este caso se llama <strong>hipotenusa</strong> al lado opuesto al ángulo recto, y <strong>catetos</strong> a los lados que forman el ángulo recto.</li>
+		</ul>
+	</li>
+
+	<div class="sbsimage">
+			<div class="imgContainerEnd">
+				<a data-fancybox="" href="imagenes/img12.png">
+				<img alt="" src="imagenes/img12.png" width="50%"/>
+			</a>
+			<div class="sbsCaption"><strong>Figura 2.12. </strong>Clasificación de los triángulos según sus ángulos</div>
+			</div>
+	</div>
+
+	<li>Según sus lados:
+		<ul>
+			<li><strong>Equilátero</strong> si todos sus lados son iguales</li>
+			<li><strong>Isósceles</strong> si tienen dos lados iguales y uno distinto. En este caso se llaman <strong>base</strong> y <strong>vértice</strong> al lado desigual y a su vértice opuesto.</li>
+			<li><strong>Escaleno</strong> si todos sus lados son distintos.</li>
+		</ul>
+	</li>
+
+	<div class="sbsimage">
+			<div class="imgContainerEnd">
+				<a data-fancybox="" href="imagenes/img13.png">
+				<img alt="" src="imagenes/img13.png" width="50%"/>
+			</a>
+			<div class="sbsCaption"><strong>Figura 2.13. </strong>Clasificación de los triángulos según sus lados.</div>
+			</div>
+	</div>
+
+</ul>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap10">Cuadriláteros</h1>
+	</header>
+
+<h2> Definiciones</h2>
+
+<ul>
+  <li>Se llama <strong>cuadrilátero </strong>al polígono de cuatro lados</li>
+  <br><li>La suma de los ángulos interiores de un triángulo es siempre 360º.</li>
+</ul>
+
+<h2>Clasificación</h2>
+
+<p>En función del paralelismo entre sus lados un cuadrilátero puede ser:</p>
+<ul>
+	<li><strong>Paralelogramo</strong>, si las dos parejas de lados opuestos son paralelos. A su vez puede ser:
+		<ul>
+			<li><strong>Cuadrado</strong>, si sus cuatro lados son iguales y sus cuatro ángulos son rectos.</li>
+			<li><strong>Rectángulo</strong>, si sus lados son iguales dos a dos y sus cuatro ángulos son rectos.</li>
+			<li><strong>Rombo</strong>, si sus cuatro lados son iguales y sus ángulos no son rectos.</li>
+			<li><strong>Romboide</strong>, si sus lados son iguales dos a dos y sus ángulos no son rectos.</li>
+		</ul>
+	</li>
+	<li><strong>Trapecio</strong>, si sólo son paralelos dos lados opuestos. Los lados paralelos se llaman <strong>bases</strong>. A su vez puede ser:
+		<ul>
+			<li><strong>Trapecio rectángulo</strong>,  si uno de sus lados no paralelos es perpendicular a las bases.</li>
+			<li><strong>Trapecio isósceles</strong>, si los lados no paralelos entre sí son iguales.</li>
+			<li><strong>Trapecio oblicuo o escaleno</strong>, si no es rectángulo o isósceles.</li>
+		</ul>
+	</li>
+	<li><strong>Trapezoide</strong>, si no existen lados paralelos entre sí.</li>
+</ul>
+
+<div class="sbsimage">
+		<div class="imgContainerEnd">
+			<a data-fancybox="" href="imagenes/img14.png">
+			<img alt="" src="imagenes/img14.png" width="50%"/>
+		</a>
+		<div class="sbsCaption"><strong>Figura 2.14. </strong>Clasificación de los cuadriláteros.</div>
+		</div>
+</div>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap11">Paralelas y perpendiculares con escuadra y cartabón</h1>
+	</header>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4tpTZjV-ewU"  allowfullscreen></iframe>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap12">Ángulos a 30°, 45°, 60° y 90°</h1>
+	</header>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9eNCkvv4F4"  allowfullscreen></iframe>
+
+</section>
+
+<section>
+	<header>
+    	<a href="#indice">[Volver al indice]</a>
+    	<h1 id="Ap13">Manejo del transportador de ángulos</h1>
+	</header>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7R2Yf00uBs"  allowfullscreen></iframe>
+
+</section>
+
+
+
+<script type="text/javascript" language="javascript">
+  function show(str, obj){
+    document.getElementById(obj).innerHTML = str;
+    //MathJax.Hub.Typeset();
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub,obj]);
+  }
+  function show2(divID) {
+      var sol = document.getElementById("sol-"+divID);
+      var div = document.getElementById(divID);
+      if(sol.style.display == "none"){
+        sol.style.display = "block";
+      }else{
+        sol.style.display = "none";
+      }
+      if(div.innerHTML == "Solución"){
+        div.innerHTML = "Oculta solución";
+      }else{
+        div.innerHTML = "Solución";
+      }
+  }
+</script>
+
+</body>
+</html>
