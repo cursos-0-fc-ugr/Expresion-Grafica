@@ -10,7 +10,7 @@ Si encuentra algún error, por favor, comuníquenoslo usando el [issue tracker](
 ## Contenidos
 
 ### Tema 1: Que es la Expresión Gráfica
-1.1 [¿Qué es la expresión Gráfica¿](Tema1/bloqueI_parte1.html)  
+1.1 [¿Qué es la expresión Gráfica?](Tema1/bloqueI_parte1.html)  
   
 ### Tema 2: Introducción a la Geometría Métrica
 2.1 [Introducción a la Geometría Métrica](Tema2/Tema2.html)  
