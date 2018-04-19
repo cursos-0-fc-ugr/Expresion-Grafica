@@ -1,4 +1,4 @@
-# Expresion-Grafica
+# Expresión Gráfica
 Curso de Expresión Gráfica para los cursos cero de la Facultad de Ciencias de la Universida de Granada
 
 Material elaborado por	Jesús Mataix Sanjuán, profesor del Departamento de Expresión Gráfica Arquitectónica y en la Ingeniería de la Universidad de Granada, para el Curso Cero de la UGR.
