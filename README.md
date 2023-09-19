@@ -5,7 +5,7 @@ Material elaborado por	Jesús Mataix Sanjuán, profesor del Departamento de Expr
 
 Este repositorio se puede visitar en [GitHub pages](https://cursos-0-fc-ugr.github.io/Expresion-Grafica).
 
-Si encuentra algún error, por favor, comuníquenoslo usando el [issue tracker](https://github.com/cursos-0-fc-ugr/Expresion-Grafica/issues) de este repositorio.
+Si encuentra algún error, por favor, comuníquenoslo usando el [gestor de incidencias](https://github.com/cursos-0-fc-ugr/Expresion-Grafica/issues) de este repositorio.
 
 ## Contenidos
 
